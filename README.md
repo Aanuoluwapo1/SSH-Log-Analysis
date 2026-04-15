@@ -71,7 +71,7 @@ This helps identify potential attack behavior in real time.
 index=ssh_logs event_type="Successful SSH Login"
 | stats count by id.orig_h, id.resp_h
 ```
-This query was used to Used to track successful access and correlate with previous failed attempts.
+This query was used to used to track successful access and correlate with previous failed attempts.
 <img width="1366" height="383" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/c15d68d0-b883-4641-a88f-e145f6ad3ba6" />
 
 *Ref 3: Dashboard panel showing top source IPs for successful logins.*
@@ -84,7 +84,7 @@ index=ssh_logs event_type="Connection Without Authentication"
 ```
 <img width="1342" height="289" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/b0462894-7e4c-48ab-bae7-4991777d4d64" />
 
-*Helps identify scanning or probing activity.*
+*Ref 4: This query helps identify scanning or probing activity.*
 
 
 ### 9. Key Takeaways
@@ -94,3 +94,4 @@ index=ssh_logs event_type="Connection Without Authentication"
 - Gained hands-on experience with SIEM workflows
 
 ## Conclusion
+This project demonstrates practical experience in security log analysis using Splunk. It highlights the ability to detect suspicious behavior, visualize attack patterns, and configure alerts for proactive threat monitoring.
