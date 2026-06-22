@@ -6,13 +6,16 @@ This project focuses on analyzing SSH authentication logs using Splunk to detect
 
 The goal is to simulate real-world SOC analysis by ingesting logs, writing SPL queries, and building dashboards and alerts.
 
-## Objective
-
-- Detect failed SSH login attempts  
-- Identify brute-force attack patterns  
-- Monitor successful logins for suspicious behavior  
-- Detect unauthenticated SSH connections  
-- Build dashboards and alerts in Splunk  
+## Dataset Description
+Step: Month of transaction (May–August)
+Customer: Unique customer ID
+Age: Age group encoded (0–5)
+Gender: M / F
+PostcodeOrigin: Origin location
+Merchant: Merchant ID
+Category: Purchase category
+Amount: Transaction value
+Fraud: 1 = Fraud, 0 = Legitimate 
 
 ## Skills Learned
 
